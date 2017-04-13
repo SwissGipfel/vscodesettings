@@ -1,5 +1,19 @@
 // Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
 {
+    // Rainbowbrackets
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "#F3FF90",
+            "#FF8077",
+            "#4B8BCC",
+            "#4AB272",
+            "#FAC8CD"
+        ],
+        "Red"
+    ],
     // Python linter conflict resolve
     "python.linting.pylintEnabled": false,
     //-----Vim Settings------
