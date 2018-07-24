@@ -1,50 +1,45 @@
-// Platzieren Sie Ihre Einstellungen in dieser Datei, um die Standardeinstellungen zu überschreiben.
+// Place your settings in this file to overwrite the default settings
 {
-    // Rainbowbrackets
-    "bracketPairColorizer.consecutivePairColors": [
-        "()",
-        "[]",
-        "{}",
-        [
-            "#F3FF90",
-            "#FF8077",
-            "#4B8BCC",
-            "#4AB272",
-            "#FAC8CD"
-        ],
-        "Red"
-    ],
-    // Python linter conflict resolve
-    "python.linting.pylintEnabled": false,
-    //-----Vim Settings------
-    //-----Linux compability----
-    "files.eol": "\n",
-    //------editor------
-    "editor.fontFamily": "inconsolata",
-    "editor.fontSize": 17,
-    // --depricated -- "editor.wrappingColumn": 0,
-    "editor.wordWrap": "on",
+    // --Editor Settings--
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
     "editor.scrollBeyondLastLine": false,
     "editor.insertSpaces": true,
     "editor.formatOnType": true,
-    //------JavaScript------
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+
+    "window.zoomLevel": 0,
+    "files.trimTrailingWhitespace": true,
+    // --Workbench--
+    "workbench.iconTheme": "easy-icons",
+    "workbench.colorTheme": "Abyss",
+    // --Shell--
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    // --JS Usability--
     "jshint.enable": true,
     "javascript.validate.enable": false,
-    "javascript.suggest.alwaysAllWords": true,
-    "javascript.suggest.useCodeSnippetsOnMethodSuggest": true,
-    //------files------
-    "files.trimTrailingWhitespace": true,
-    //------zoom------
-    //"workbench.action.zoomIn": "Ctrl+.",
-    //"workbench.action.zoomOut": "Ctrl+-",
-    //"workbench.action.zoomReset": "Ctrl+,",
-    //"terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\bash.exe",
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
-    "window.zoomLevel": 0,
-    "editor.cursorStyle": "block",
-    "editor.cursorBlinking": "solid",
-    "workbench.welcome.enabled": false,
-    "workbench.colorTheme": "Solarized Dark",
-    "editor.minimap.enabled": true,
-    "workbench.iconTheme": "easy-icons"
+    // --Powermode Addon--
+    "powermode.enabled": true,
+    "powermode.presets": "particles",
+    "powermode.enableShake": false,
+    // --SpellCheck--
+    // --VIM--
+    // --Rainbowbrackets--
+    "bracketPairColorizer.consecutivePairColors": [
+            "()",
+            "[]",
+            "{}",
+            [
+                "#F3FF90",
+                "#FF8077",
+                "#4B8BCC",
+                "#4AB272",
+                "#FAC8CD"
+            ],
+            "Red"
+    ],
+    // --LinuxCompability--
+    "files.eol": "\n"
+
 }
