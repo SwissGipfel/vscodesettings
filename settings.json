@@ -8,12 +8,16 @@
     "editor.formatOnType": true,
     "editor.minimap.enabled": false,
     "editor.wordWrap": "on",
-
+    "[powershell]":{
+        "files.encoding":"cp850"
+    },
+    "[bat]":{
+        "files.encoding":"cp850"
+    },
     "window.zoomLevel": 0,
     "files.trimTrailingWhitespace": true,
     // --Workbench--
     "workbench.iconTheme": "easy-icons",
-    "workbench.colorTheme": "Abyss",
     // --Shell--
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     // --JS Usability--
@@ -27,6 +31,8 @@
     // --VIM--
     // --Rainbowbrackets--
     // --LinuxCompability--
-    "files.eol": "\n"
-
+    "files.eol": "\n",
+    "workbench.startupEditor": "newUntitledFile",
+    "team.showWelcomeMessage": false,
+    "powershell.powerShellExePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
 }
