@@ -4,35 +4,49 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.scrollBeyondLastLine": false,
-    "editor.insertSpaces": true,
     "editor.formatOnType": true,
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "editor.wordWrap": "on",
-    "[powershell]":{
-        "files.encoding":"windows1252"
+    "[powershell]": {
+        "files.encoding": "windows1252"
     },
-    "[bat]":{
-        "files.encoding":"windows1252"
+    "[bat]": {
+        "files.encoding": "windows1252"
     },
-    "window.zoomLevel": 0,
     "files.trimTrailingWhitespace": true,
+    // --Theme Customizer--
+    "editor.tokenColorCustomizations": {
+        "[Atom One Dark]": {
+            "comments": "#229977"
+        }
+    },
     // --Shell--
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell 7": {
+            "source": "PowerShell"
+        }
+    },
+    "terminal.integrated.defaultProfile.windows":"PowerShell",
     // --JS Usability--
-    "jshint.enable": true,
     "javascript.validate.enable": false,
-    // --Powermode Addon--
-    "powermode.enabled": true,
-    "powermode.presets": "particles",
-    "powermode.enableShake": false,
-    // --SpellCheck--
-    // --VIM--
-    // --Rainbowbrackets--
     // --LinuxCompability--
     "files.eol": "\n",
     "workbench.startupEditor": "newUntitledFile",
-    "team.showWelcomeMessage": false,
-    "powershell.powerShellExePath": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "workbench.sideBar.location": "right",
-    "editor.tabCompletion": "on"
+    "editor.tabCompletion": "on",
+    "workbench.colorTheme": "Atom One Dark",
+    "diffEditor.ignoreTrimWhitespace": true,
+    "git.autofetch": true,
+    "editor.detectIndentation": false,
+    "explorer.confirmDelete": false,
+    // -- yaml extension --
+    "yaml.validate": false,
+    // --python extension --
+    "python.pythonPath": "C:\\Python38\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "editor.suggestSelection": "first",
+    "go.toolsManagement.autoUpdate": true,
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open"
 }
