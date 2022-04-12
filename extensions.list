@@ -1,6 +1,5 @@
 akamud.vscode-theme-onedark
 be5invis.toml
-CoenraadS.bracket-pair-colorizer-2
 DavidAnson.vscode-markdownlint
 donjayamanne.githistory
 fabianlauer.vs-code-xml-format
@@ -10,10 +9,12 @@ hashicorp.terraform
 jamiewoodio.cisco
 mechatroner.rainbow-csv
 ms-azure-devops.azure-pipelines
-ms-azuretools.vscode-docker
+ms-dotnettools.csharp
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
+ms-toolsai.jupyter-renderers
 ms-vscode-remote.remote-wsl
 ms-vscode.azure-account
 ms-vscode.azurecli
